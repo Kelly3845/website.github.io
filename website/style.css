@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 少女體;
+    src: url("font/華康少女字W6.woff") format(woff);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 少女體;
+}
+
+body {
+    background-color: #A4A8D1;
+    margin: 0px;
+}
+
+.self_introduction {
+    background-color: #9D858D;
+    padding: 20px;
+}
+
+.photo {
+    border: double 20px #fefae0;
+    float: left;
+    transform: translateY(10px);
+}
+
+.information {
+    display: inline-block;
+    padding: 20px;
+}
+
+.about_me {
+    background-color: #A4BFEB;
+    float: right;
+    text-align: center;
+    transform: translateX(-30px);
+    border-radius: 999em;
+    width: 425px;
+    height: 425px;
+    border: solid 10px #ffb703;
+    transition: 1s;
+}
+
+.about_me:hover {
+    transform: rotate(180deg);
+}
+
+.skill {
+    padding: 20px;
+}
+
+.programming {
+    padding: 20px 50px;
+    float: left;
+}
+
+#programming_item {
+    background: #BBA0B2;
+    border-radius: 90px;
+    width: 120%;
+    padding: 30px 50px;
+}
+
+progress {
+    -webkit-appearance: none;
+}
+
+::-webkit-progress-value {
+    background-color: #ff006e;
+}
+
+.other_skill {
+    padding: 20px 50px;
+    float: right;
+}
+
+#otherskill_item {
+    background: #BBA0B2;
+    border-radius: 90px;
+    width: 110%;
+    padding: 30px 50px;
+}
+
+.experience {
+    padding: 20px;
+}
+
+.activity {
+    padding: 20px 50px;
+}
+
+.activity_item {
+    background: #BBA0B2;
+    border-radius: 90px;
+    width: 100%;
+    padding: 30px 50px;
+}
+
+.foreigner {
+    background-color: #A4BFEB;
+    border-radius: 90px;
+    width: 100%;
+    padding: 30px 50px;
+}
+
+.management {
+    background-color: #A4BFEB;
+    border-radius: 90px;
+    width: 100%;
+    padding: 30px 50px;
+    margin: 10px;
+}
+
+.human_rights {
+    background-color: #A4BFEB;
+    border-radius: 90px;
+    width: 100%;
+    padding: 30px 50px;
+    margin: 10px;
+}
+
+.project {
+    padding: 20px 50px;
+}
+
+.project_item {
+    background: #BBA0B2;
+    border-radius: 90px;
+    width: 100%;
+    padding: 30px 50px;
+}
+
+.AI {
+    background-color: #A4BFEB;
+    border-radius: 90px;
+    width: 100%;
+    padding: 30px 50px;
+    margin: 10px;
+}
+
+.work {
+    padding: 20px 50px;
+}
+
+.work_item {
+    background: #BBA0B2;
+    border-radius: 90px;
+    width: 100%;
+    padding: 30px 50px;
+}
+
+.part_time {
+    background-color: #A4BFEB;
+    border-radius: 90px;
+    width: 100%;
+    padding: 30px 50px;
+    margin: 10px;
+}
+
+#parttime_picture:hover {
+    transform: scale(2);
+}
+
+footer {
+    background-color: #8CABBE;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+.contact {
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    padding: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
